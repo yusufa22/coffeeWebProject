@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="style" href="landscape.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Long+Cang&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="preloader">
+        <h3 class="text">LOADING</h3>
+        <h3 class="dots" id="dot1">.</h3><h3 class="dots" id="dot2">.</h3><h3 class="dots" id="dot3">.</h3>
+    </div>
+    <div id="parent">
+
+        <img src="transparentcoffee.png" alt="">
+    <div class="hero-section">
+      <div class="navbar">
+        <ul>
+          <li id="logo">coffeeshop</li>
+          <a href="" class="a"><li>home</li></a>
+          <a href="" class="a"><li>store</li></a>
+          <a href="" class="a"><li>about</li></a>
+          <a href="" class="a"><li>contact us</li></a>
+        </ul>
+       </div>  
+       <div class="main-hero"> 
+           <h1>made to get you there faster</h1> 
+           <h4>With our signature finely grinded coffee powder fresh <br> from the daalo mountains of east africa, our drinks are <br> sure to give you the boost you are looking for.</h4>
+           <a href="" class="button1">BUY NOW</a>
+           <a href="" class="button2">LEARN MORE</a>
+       </div>
+    </div>
+
+    </div>
+    <div class="reasons-why">
+
+    </div>
+   <script>
+        window.addEventListener('load', ()=>{
+            document.querySelector('.preloader').style.display = 'none'
+        })
+
+        window.addEventListener('resize', ()=>{
+            if(window.innerWidth<=811){
+            document.querySelector('h4').innerHTML = 'With our signature finely grinded coffee powder fresh from the daalo mountains of east africa, our drinks are sure to give you the boost you are looking for.'
+        }
+        else{
+            document.querySelector('h4').innerHTML = 'With our signature finely grinded coffee powder fresh <br> from the daalo mountains of east africa, our drinks are <br> sure to give you the boost you are looking for.'}
+        })
+        if(window.innerWidth<=811){
+            document.querySelector('h4').innerHTML = 'With our signature finely grinded coffee powder fresh from the daalo mountains of east africa, our drinks are sure to give you the boost you are looking for.'
+        }
+        else{
+            document.querySelector('h4').innerHTML = 'With our signature finely grinded coffee powder fresh <br> from the daalo mountains of east africa, our drinks are <br> sure to give you the boost you are looking for.'}        
+    </script>
+</body>
+</html>
