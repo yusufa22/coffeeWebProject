@@ -1,4 +1,4 @@
 # coffeeWebProject
 
 
-a responsive websit hero section to learn responsive design.
+a responsive website hero section to learn responsive design.
